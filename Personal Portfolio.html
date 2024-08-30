@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Aly Arshad</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            Download CV <i class="fa-solid fa-download"></i>
+          </button>
+        </div>
+        <div class="nav-menu">
+          <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <main class="wrapper">
+        <section class="personal-info" id="home">
+          <div class="info-text">
+            <div class="info-card">
+              <span>Aly Arshad</span>
+            </div>
+            <div class="info-name">
+              <p class="typo">I'm <span class="typedText"></span></p>
+            </div>
+            <div class="info-text-info">
+              <p>
+                Emerging full stack developer focused on crafting dynamic,
+                responsive web applications with innovative designs and
+                efficient backend solutions.
+              </p>
+            </div>
+            <div class="info-text-btn">
+              <button class="btn blue-btn">
+                <a href="#about">About Me</a>
+              </button>
+              <button class="btn">
+                Download CV <i class="fa-solid fa-download"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+              <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+              <div class="icon"><i class="fa-brands fa-github"></i></div>
+            </div>
+          </div>
+          <div class="info-image">
+            <div class="image">
+              <img src="Designer (2).png" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="fa-solid fa-computer-mouse"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>Introduction</h3>
+                <p>
+                  I am an emerging full stack developer with a strong passion
+                  for crafting dynamic and responsive web applications. With a
+                  solid foundation in both frontend and backend technologies, I
+                  specialize in creating seamless user experiences and efficient
+                  solutions. My journey includes diverse projects ranging from
+                  innovative web applications to intricate electronics systems,
+                  all driven by a commitment to continuous learning and
+                  improvement. As I advance in my career, I am eager to tackle
+                  new challenges and contribute to impactful projects.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills">
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Front-End</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                    <span>React</span>
+                  </div>
+                </div>
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Back-End</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span>PHP</span>
+                    <span>Node.js</span>
+                    <span>Express.js</span>
+                    <span>C++</span>
+                  </div>
+                </div>
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Databases</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="fa-solid fa-bus-simple"></i>
+              <h3>Bus Reservation System</h3>
+              <label>C++</label>
+              <p>
+                A system to handle bus ticket bookings, seat reservations, and
+                schedule management.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-car"></i>
+              <h3>Vehicle Parking System</h3>
+              <label>C++</label>
+              <p>
+                A program to manage vehicle entries, parking slot allocation,
+                and fee calculation.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-hotel"></i>
+              <h3>Hotel Management System</h3>
+              <label>C++</label>
+              <p>
+                A software application to manage hotel bookings, guest
+                check-ins/check-outs, and billing.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-shirt"></i>
+              <h3>E-commerce Store</h3>
+              <label
+                >HTML, CSS, JavaScript, jQuery, Node.js, Express.js,
+                MongoDB</label
+              >
+              <p>
+                A web-based e-commerce platform with product inventory,
+                checkout, and user authentication.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-clipboard-list"></i>
+              <h3>To-Do List</h3>
+              <label>HTML, CSS, JavaScript, Node.js, Express.js, MongoDB</label>
+              <p>
+                A simple to-do list web application allowing users to add, edit,
+                and track their daily activities with persistent storage.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-address-card"></i>
+              <h3>Personal Portfolio</h3>
+              <label>HTML, CSS, JavaScript</label>
+              <p>
+                A simple personal portfolio website featuring a responsive
+                design and a customizable template.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-staff-snake"></i>
+              <h3>Snake Game</h3>
+              <label>Assembly Language & Arduino UNO</label>
+              <p>
+                A simple snake game implemented using assembly language and the
+                Arduino UNO microcontroller.
+              </p>
+              <span
+                ><a href="#"><i class="fa-solid fa-code"></i></a
+              ></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get In Touch</h1>
+            <span>Let's collaborate and bring your ideas to life.</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Contact Me <i class="fa-solid fa-turn-down"></i></h2>
+                <p>
+                  <i class="fa-solid fa-envelope"></i>
+                  aliarshad.9474@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i> +923 41 819 3401</p>
+                <p><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="contact-form">
+                <div class="form-inputs">
+                  <input
+                    type="text"
+                    class="input-field"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    oninput="inputCheck()"
+                  />
+                  <input
+                    type="text"
+                    class="input-field"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    oninput="inputCheck()"
+                  />
+                </div>
+                <div class="text-area">
+                  <textarea
+                    placeholder="Message"
+                    name="msg"
+                    id="msg"
+                    oninput="inputCheck()"
+                  ></textarea>
+                </div>
+                <div class="form-button">
+                  <button type="submit" class="btn" onclick="formValidity()">
+                    Message <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="top-footer">
+          <p>Aly Arshad</p>
+        </div>
+        <div class="to-top" onclick="toTop()">
+          <i class="fa-solid fa-arrow-up-long"></i>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+          <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+          <div class="icon"><i class="fa-brands fa-github"></i></div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" class="crName">Aly Arshad</a> - All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>
